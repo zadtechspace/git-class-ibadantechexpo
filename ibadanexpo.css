@@ -231,11 +231,14 @@ font-size: 35px;
     border-bottom: 2px solid #fdb915;
 }
 
-.s3box2{
+.s3box2{display: flex; gap: 10px;align-items: center;}
+
+.s3box2div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:50px ;
+    gap: 10px;
+    /* padding-top:50px ; */
 }
 
 .s3box2 h1{
@@ -615,4 +618,21 @@ transition: background-color 0.5s linear;
 
     .s2box2span3{font-size: 3vw;position: relative;top: 6vw; left:3vw ;}
     .s2box2span4{font-size: 3vw;position: relative;bottom: 6vw;left:0.5vw ;}
+
+    .s3{width: 100%;padding: 10px;margin-top: 50px;}
+
+    .s3box{width: 100%;padding: 0px;}
+
+    .s3box1{width: 100%;}
+
+    .s3box1 h1{font-size: 4vw;}
+
+    .s3box1 p{font-size: 3vw;}
+
+    .s3box2{width: 100%;padding: 0px 0px;display: flex;flex-flow: column;}
+    .s3box2 img{width: 100%;}
+
+    .s3box2 h1{font-size: 4vw;}
+    .s3box2 p{font-size: 3vw;}
+
 }
